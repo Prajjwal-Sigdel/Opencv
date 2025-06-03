@@ -17,7 +17,7 @@ cv.createTrackbar('G', 'image', 0, 255, nothing)
 cv.createTrackbar('B', 'image', 0, 255, nothing)
 
 # create switch for ON/OFF functionality
-switch = '0 : Aayush is gay \n1 : AAyush is not gay nah'
+switch = '0 : true\n1 : false'
 cv.createTrackbar(switch, 'image', 0, 1, nothing)
 
 while (1):
