@@ -1,5 +1,5 @@
 # importing numpy and cv2 libraries for image processing and manipulation
-import numpy as nb
+import numpy as np
 import cv2 as cv
 
 # accessing the camera of this decive and checking if it went well
