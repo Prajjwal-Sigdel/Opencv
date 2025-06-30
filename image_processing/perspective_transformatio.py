@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv.imread('C:\\Users\\prajj\\repo\\opencv\\image_processing\\sudoku.jpg')
+img = cv.imread('C:\\Users\\prajj\\repo\\opencv\\images\\sudoku.jpg')
 assert img is not None, "file could not be read, check with os.path.exists()"
 rows, cols, ch = img.shape
 
@@ -14,10 +14,10 @@ pts1 = np.float32([
 ])
 
 pts2 = np.float32([
-    [0, 0],        # Top-left
-    [250, 0],      # Top-right
-    [0, 200],      # Bottom-left
-    [250, 200]     # Bottom-right
+    [10, 10],        # Top-left
+    [240, 0],      # Top-right
+    [0, 190],      # Bottom-left
+    [240, 190]     # Bottom-right
 ])
 
 

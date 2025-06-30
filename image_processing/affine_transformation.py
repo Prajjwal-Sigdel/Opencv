@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-img = cv.imread('C:\\Users\\prajj\\repo\\opencv\\image_processing\\hero.jpg')
+img = cv.imread('C:\\Users\\prajj\\repo\\opencv\\images\\hero.jpg')
 assert img is not None, "file could not be read, check with os.path.exists()"
 rows, cols, ch = img.shape
 
@@ -22,6 +22,6 @@ plt.subplot(5, 5, 13), plt.imshow(cv.cvtColor(
 plt.subplot(1, 2, 2), plt.imshow(cv.cvtColor(
     dst, cv.COLOR_BGR2RGB)), plt.title('Output')
 plt.show()
-
+q
 cv.waitKey(0)
 cv.destroyAllWindows()
